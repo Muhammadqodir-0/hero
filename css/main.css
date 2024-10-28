@@ -82,7 +82,7 @@ border-radius: 5px;
     padding-top: 100px;
 }
 body{
-    background-color: #F3F3F3;
+    background-color: #F3F3F3 !important;
 }
 .div2{
     height: 54px;
@@ -156,8 +156,9 @@ font-weight: 700;
 color: #F3849F;
 }
 .div10{
-   margin: 100px 0 100px 0;
-   background-color: #fff;
+   margin: 100px 0 50px 0;
+   padding: 50px 0;
+   background-color:#ffff !important;
 }
 .div11{
     padding-top:50px ;
@@ -183,5 +184,17 @@ color: #FFAE00;
 font-family: "Poppins";
 font-size: 24px;
 font-weight: 500;
+color: #4F4F4F;
 
+}
+.pilar{
+font-family: "Poppins";
+font-size: 11px;
+font-weight: 400;
+color: #828282;
+padding: 8px 12px;
+border-radius: 16px;
+}
+.pilar:hover{
+    background-color: #F3849F;
 }
