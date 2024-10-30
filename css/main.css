@@ -73,13 +73,14 @@ font-weight: 700;
     margin-bottom: 10px;
 }
 .img2{
-margin-left: 0px;
+margin-left: 71px;
 width: 394px;
 height: 301px;
 border-radius: 5px;
 }
 .div1{
-    padding-top: 100px;
+    padding: 100px 0 0 0;
+    
 }
 body{
     background-color: #F3F3F3 !important;
@@ -194,7 +195,17 @@ font-weight: 400;
 color: #828282;
 padding: 8px 12px;
 border-radius: 16px;
+text-decoration: none;
+}
+
+.pilar.active{
+    background-color: #F3849F;
+    color: #ffffff;
 }
 .pilar:hover{
     background-color: #F3849F;
+    color: #ffffff;
+}
+.img-grayt{
+    height: 271px !important;
 }
